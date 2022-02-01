@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+	<title>Bibliar</title>
+
+	<link href="style.css" rel="stylesheet" />
+	<link href="bootstrap.min.css" rel="stylesheet" />
+	
+
+</head>
+<body>
+
+	<div class="container">
+	
+  		<table>
+  			<tr>
+  				<td><p>Version</p></td>
+  				<td><p>Books</p></td>
+  				<td><p>Chapters</p></td>
+  				<td><p>Versicle</p></td>
+  			</tr>
+			
+			
+  			<tr>
+  				<td><select id="bibliar_t" class="form-control" > </select></td>
+  				<td><select id="bibliar_b" class="form-control" > </select></td>
+  				<td><select id="bibliar_c" class="form-control" ></select></td>
+  				<td><select id="bibliar_v" class="form-control" > </select></td>
+  			</tr>
+			<tr>
+  				<td>&nbsp;</td>
+  				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+  			</tr>
+			
+        <tr>
+          <td colspan="3">
+            <input class="form-control" placeholder="Search" type="text" id="bibliar_s" value="" />
+          </td>
+          <td><input class="btn btn-large btn-primary" type="button" id="bibliar_a" value="Search" /></td>
+        </td>
+  		</table>
+
+  		<div id="bibliar_r"></div>
+	</div>
+
+	<script src="inc/jquery.js"></script>
+	<script src="inc/app.js"></script>
+	<script src=”https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js”></script>
+</body>
+</html>
